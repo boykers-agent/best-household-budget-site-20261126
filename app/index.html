@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Household Budget for the Rivera Family</title>
+<meta name="description" content="A working household budget site: track income and spending, keep category budgets, save for goals, and read the six-month report. All data stays in your browser.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/dashboard"><span class="brand-mark">HL</span> HomeLedger</a>
+    <nav id="main-nav" aria-label="Main navigation"></nav>
+  </div>
+</header>
+<main class="wrap" id="view"></main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><strong>HomeLedger</strong> — the Rivera household budget. Figures are the household's real November 2026 numbers. Everything you add or change is stored only in this browser; nothing leaves it.</p>
+    <p><button class="btn small ghost" id="reset-demo" type="button">Reset demo data</button></p>
+  </div>
+</footer>
+<script src="./format.js"></script>
+<script src="./store.js"></script>
+<script src="./charts.js"></script>
+<script src="./views/dashboard.js"></script>
+<script src="./views/transactions.js"></script>
+<script src="./views/budgets.js"></script>
+<script src="./views/goals.js"></script>
+<script src="./views/reports.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
